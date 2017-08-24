@@ -1,0 +1,54 @@
+
+#card{
+	position: absolute;
+	width: 100%;
+}
+.card-list{
+	display: flex;
+}
+.card-list>li{
+	flex: 1;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #ff7100;
+}
+.card-list .active{
+	color: #FF5000;
+	border-bottom: 5px solid #FF7100;
+}
+.material{
+	margin-top: 20px;
+	padding: 0 32px;
+}
+.material>div{
+	margin-top: 30px;
+	border-bottom: 1px solid #ddd;
+}
+.material label {
+    font-weight: normal;
+    line-height: 34px;
+    margin: 0 15px 0 10px;
+    float: left;
+}
+.material input{
+	background-color: transparent;
+    height: 34px;
+    width: 55%;
+    font-size: 14px;
+    vertical-align: top;
+    border: none;
+    outline: medium;
+}
+.inquire{
+    width: 163px;
+    display: block;
+    background-color: #fe8233;
+    color: #fff;
+    border: none;
+    border-radius: 36px;
+    margin:45px auto;
+    padding: 8px 12px;
+    font-size: 15px;
+    outline: none;
+}

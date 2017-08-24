@@ -1,0 +1,117 @@
+#home{
+	background: #ebebeb;
+}
+#home .home-banner{
+	width: 100%;
+}
+#home .home-banner img{
+	width: 100%;
+}
+#home .hotList>ul{
+	padding-top: 18px;
+}
+#home .hotList .list-unstyled{
+    padding-left: 0;
+    list-style: none;
+}
+#home .hotList>ul>li{
+    margin: 0 17px 17px 17px;
+    background-color: #f9f9f9;
+    -webkit-box-shadow: 0.5px 0.5px 1px #a8a8a8;
+    -moz-box-shadow: 0.5px 0.5px 1px #a8a8a8;
+    box-shadow: 0.5px 0.5px 1px #a8a8a8;
+    cursor: pointer;
+}
+#home .content{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom:0;
+	overflow: hidden;
+}
+
+#home .hotList>ul>li>img{
+	width: 100%;
+}
+#home .row{
+	height: 50px;
+	position: relative;
+}
+#home .unstyled-left{
+	width: 80%;
+	position: absolute;
+	left: 0;
+	padding-left: 10px;
+	padding-top: 10px;
+	font-size: 12px;
+}
+#home .unstyled-left>h3{
+	font-size: 14px;
+}
+#home .unstyled-left>p{
+	color: #9a9a9a;
+}
+#home .unstyled-right{
+	width: 10%;
+	position: absolute;
+	right: 0;
+	line-height: 50px;
+	color: #f78360;
+	padding-right: 10px;
+}
+#home .more span{
+	width: 160px;
+    height: 30px;
+    display: block;
+    border: 1px solid #aaa;
+    border-radius: 15px;
+    margin: 10px auto 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+    color: #616161;
+    cursor: pointer;
+}
+#home .dividing-line{
+	position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #a8a8a8;
+}
+#home .dividing-line .upcoming{
+	width: 65px;
+    height: 20px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: -10px;
+    border-radius: 5px;
+    font-size: 10px;
+    line-height: 20px;
+    text-align: center;
+    color: #eee;
+    background-color: #a7a7a7;
+}
+#home .showList>.list-unstyled>li>img{
+	width: 100%;
+}
+#home .showList>ul>li{
+    margin: 0 17px 17px 17px;
+    background-color: #f9f9f9;
+    -webkit-box-shadow: 0.5px 0.5px 1px #a8a8a8;
+    -moz-box-shadow: 0.5px 0.5px 1px #a8a8a8;
+    box-shadow: 0.5px 0.5px 1px #a8a8a8;
+    cursor: pointer;
+    font-size: 12px;
+}
+#home .showList>ul>li>.row{
+	height: 40px;
+}
+#home .showList>ul>li>.row.unstyled-left{
+	width: 50%;
+}
+#home .showList>ul>li>.row>.unstyled-right{
+	width: 40%;
+	line-height: 40px;
+	text-align: center;
+}

@@ -1,0 +1,153 @@
+
+
+.swiper-slide>img{
+	width: 100%;
+}
+.shops{
+	background-color: #fff;
+    padding: 15px 0;
+}
+.shops .shop{
+    width: 25%;
+    height: 100%;
+    margin: 8px 0;
+    text-align: center;
+    display: inline-block;
+}
+.shops .shop>span>img{
+	margin: 0 auto;
+	width: 40px;
+}
+.shops .shop .category-name {
+    font-size: 12px;
+    text-align: center;
+    color: #323232;
+}
+.active .line{
+    height: 8px;
+    background: #f2f2f2;
+}
+
+.active .active-contain{
+	padding: 0 10px;
+	display: flex;
+}
+.active .active-contain>li{
+	float: left;
+    width: 50%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   	margin-right: 3px;
+}
+.active .active-contain>li>img{
+	width: 100%;
+}
+.subject .line{
+    height: 8px;
+    background: #f2f2f2;
+}
+.subject .subject-center {
+    padding: 10px;
+    background: #fff;
+    box-sizing: border-box;
+    border-top:8px solid #f2f2f2;
+}
+.subject .subject-center>li>img{
+	width: 100%;
+}
+.subject .subject-center .pic-list {
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+.subject .subject-center .pic-list .subject-item {
+    display: inline-block;
+    width: 30%;
+}
+.subject .subject-center .pic-list .control-list .pic-area {
+    width: 85px;
+    height: 85px;
+}
+ .subject .subject-center img {
+    width: 100%;
+}
+.subject .subject-center .pic-list .control-list .control-name {
+    font-size: 12px;
+    color: #323232;
+    height: 30px;
+    line-height: 30px;
+}
+.subject .subject-center .pic-list .control-list .control-price {
+    font-size: 13px;
+    color: #ff6640;
+    height: 30px;
+    line-height: 30px;
+    
+}
+.container {
+    margin: 0 auto;
+    max-width: 600px;
+    min-width: 320px;
+}
+.recommend .container .title {
+    height: 33px;
+    background-color: #f2f2f2;
+    line-height: 33px;
+    font-size: 13px;
+    text-align: center;
+    color: #323232;
+    margin-bottom: -5px;
+}
+.recommend .container .items {
+    background-color: #f2f2f2;
+    min-height: 510px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.recommend .container .items .tips {
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+}
+.recommend .container .items .tailloader .item{
+    position: relative;
+    width: 47%;
+    padding: 5px 5px;
+    float: left;
+}
+.recommend .container .items .item .logo {
+    display: inline-block;
+    width: 100%;
+    background: #fff;
+}
+.recommend .container .items .tailloader .item .logo>img{
+	width: 100%;
+}
+.recommend .container .items .item .logo .name {
+    font-size: 12px;
+    height: 34px;
+    width: 100%;
+    display: block;
+    color: #323232;
+    text-align: left;
+    padding-left: 6px;
+}
+.recommend .container .items .item .logo .content {
+    text-align: left;
+    padding-bottom: 10px;
+}
+.recommend .container .items .item .logo .content .price {
+    font-size: 13px;
+    color: #ff5000;
+    padding-left: 6px;
+}
+.recommend .container .items .item .logo .content .inventory {
+    font-size: 9px;
+    color: #999;
+    margin-left: 15px;
+}
+/************** 以下是上下拉刷新的样式 ****************/
+
+
